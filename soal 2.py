@@ -8,7 +8,7 @@ count = 0
 while a != 0:
     print("total nilai saat ini adalah", s)
     a = float(input("nilai: "))
-    s = s + a
+    s += a
     count += 1
 print("nilai total anda adalah =", s)
 print(f"nilai rata-rata anda adalah {round(s / (count -1), 2)}")
