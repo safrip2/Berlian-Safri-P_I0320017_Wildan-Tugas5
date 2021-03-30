@@ -9,9 +9,9 @@ while a != 0:
     print("total nilai saat ini adalah", s)
     a = float(input("nilai: "))
     s = s + a
-    count = count + 1
-print("nilai total adalah =", s)
-print(f"nilai rata-rata adalah {s / (count -1)}")
+    count += 1
+print("nilai total anda adalah =", s)
+print(f"nilai rata-rata anda adalah {round(s / (count -1), 2)}")
 rata2 = s / (count -1)
 if rata2 >= 85:
     print(f"Halo {nama}! Grade anda adalah A")
